@@ -299,21 +299,21 @@ const CustomerTestimonials = () => {
                                 Experience professional pediatric care with our qualified specialists
                             </p>
                             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                                <button className="btn btn-light d-none d-md-inline btn-lg px-4 fw-medium rounded-pill">
+                                <a className="btn btn-light d-none d-md-inline btn-lg px-4 fw-medium rounded-pill" href='#Appointment-Form'>
                                     Book Appointment
-                                </button>
-                                <button className="btn btn-light px-4  d-inline d-md-none fw-medium rounded-pill">
+                                </a>
+                                <a className="btn btn-light px-4  d-inline d-md-none fw-medium rounded-pill" href='#Appointment-Form'>
                                     Book Appointment
-                                </button>
+                                </a>
                                
-                                <button className="btn btn-outline-light  d-none d-md-inline btn-lg px-4 fw-medium rounded-pill">
+                                <a className="btn btn-outline-light  d-none d-md-inline btn-lg px-4 fw-medium rounded-pill" href='tel:9150739154'>
                                     <i className="fas fa-phone me-2"></i>
                                     Contact Us
-                                </button>
-                                <button className="btn btn-outline-light  d-inline d-md-none px-4 fw-medium rounded-pill">
+                                </a>
+                                <a className="btn btn-outline-light  d-inline d-md-none px-4 fw-medium rounded-pill" href='tel:9150739154'>
                                     <i className="fas fa-phone me-2"></i>
                                     Contact Us
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
