@@ -9,6 +9,12 @@
  font-size: 17px;
 }
 
+.active-nav {
+  color: #ee0d0d !important;
+  
+}
+
+
 @media(max-width:420px){
   .brand-sub{
  font-size: 12px;

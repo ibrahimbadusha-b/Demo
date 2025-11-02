@@ -43,7 +43,7 @@ const Footer = () => {
             <h5 className="fw-bold mb-3 text-dark text-start ms-5 ms-md-0">Contact Us</h5>
             <div className="d-flex flex-column text-start gap-2">
               <a href="tel:91 9150739154" className="text-decoration-none text-dark">
-                <i className="fas fa-phone-alt me-2 text-secondary"></i>
+                <i className="fas fa-phone me-2 text-secondary"></i>
                 +91 91507 39154
               </a>
               <a href="mailto:ibrahimbadusha2602@gmail.com" className="text-decoration-none text-dark">

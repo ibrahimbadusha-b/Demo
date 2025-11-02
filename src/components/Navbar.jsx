@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../assets/logo.png';
 
 const Navbar = ({ isLoggedIn, onLogout }) => {
+  const [activeLink, setActiveLink] = useState('home');
+
   const handleLogout = () => {
     if (onLogout) onLogout();
+  };
+
+  const handleNavClick = (section) => {
+    setActiveLink(section);
+    
+    if (section === 'home') {
+      window.location.href = '/';
+    } else {
+      const element = document.getElementById(section);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (
@@ -67,30 +82,36 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
               <li className="nav-item">
                 <button 
-                  className="nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100" 
+                  className={`nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100 ${
+                    activeLink === 'home' ? 'active-nav' : ''
+                  }`}
                   type="button"
                   data-bs-dismiss="offcanvas"
-                  onClick={() => window.location.href = '/'}
+                  onClick={() => handleNavClick('home')}
                 >
                   Home
                 </button>
               </li>
               <li className="nav-item">
                 <button 
-                  className="nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100" 
+                  className={`nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100 ${
+                    activeLink === 'doctor-section' ? 'active-nav' : ''
+                  }`}
                   type="button"
                   data-bs-dismiss="offcanvas"
-                  onClick={() => window.location.href = '#doctor-section'}
+                  onClick={() => handleNavClick('doctor-section')}
                 >
                   Our Doctors
                 </button>
               </li>
               <li className="nav-item">
                 <button 
-                  className="nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100" 
+                  className={`nav-link btn btn-link fw-normal px-3 py-2 border-0 text-start w-100 ${
+                    activeLink === 'service-section' ? 'active-nav' : ''
+                  }`}
                   type="button"
                   data-bs-dismiss="offcanvas"
-                  onClick={() => window.location.href = '#service-section'}
+                  onClick={() => handleNavClick('service-section')}
                 >
                   Services
                 </button>
