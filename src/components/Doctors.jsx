@@ -119,13 +119,13 @@ const Doctors = () => {
                     </div>
                     <div className="row">
                         <div className="col-6 ">
-                            <button
+                            <a
                                 className='btn btn-sm '
-                                onClick={() => handleBookAppointment(doctor)}
+                                href='#Appointment-Form'
                                 style={{ background: 'linear-gradient(135deg, #ee0d0d, #b60505)', color: "white" }}
                             >
                                 Book Appointment
-                            </button>
+                            </a>
                         </div>
                     </div>
 

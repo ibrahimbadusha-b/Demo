@@ -42,11 +42,11 @@ const Footer = () => {
           <div className="col-11 col-sm-6 col-lg-3">
             <h5 className="fw-bold mb-3 text-dark text-start ms-5 ms-md-0">Contact Us</h5>
             <div className="d-flex flex-column text-start gap-2">
-              <a href="#" className="text-decoration-none text-dark">
+              <a href="tel:91 9150739154" className="text-decoration-none text-dark">
                 <i className="fas fa-phone-alt me-2 text-secondary"></i>
                 +91 91507 39154
               </a>
-              <a href="#" className="text-decoration-none text-dark">
+              <a href="mailto:ibrahimbadusha2602@gmail.com" className="text-decoration-none text-dark">
                 <i className="fas fa-envelope me-2 text-secondary"></i> kidcarehospital@gmail.com
               </a>
               <div className="">
@@ -63,7 +63,6 @@ const Footer = () => {
 
         <hr className="my-4" />
 
-        {/* Social Media & Legal */}
         <div className="row text-center gy-3">
           <div className="col-12">
             <div className="d-flex justify-content-center gap-4 fs-5">
