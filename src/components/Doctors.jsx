@@ -135,11 +135,11 @@ const Doctors = () => {
     );
 
     return (
-        <div className='container mt-5' id='doctor-section'>
+        <div className='container mt-4 mt-md-5' id='doctor-section'>
             <div className="row">
                 <div className="col-12">
                     <h2 className="text-center display-6 fw-bold text-dark mb-3">Our Expert Doctors</h2>
-                    <p className="text-center lead text-muted mb-5">
+                    <p className="text-center lead text-muted mb-4 mb-md-5">
                         Meet our experienced pediatric specialists dedicated to your child's health and well-being
                     </p>
                 </div>

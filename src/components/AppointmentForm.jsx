@@ -59,7 +59,7 @@ const AppointmentForm = () => {
     ];
 
     return (
-        <div className='my-5'>
+        <div className='my-4 my-md-5'>
             <div className="container px-3 px-lg-4" id='Appointment-Form'>
                 <div className="card appointment-card">
                     <div className="card-body p-3 p-lg-4">

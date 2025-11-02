@@ -198,7 +198,7 @@ const Services = () => {
 
   return (
     <div className=" min-vh-100 ">
-      <div className="container mt-3 mt-sm-4 mt-md-5" id='service-section'>
+      <div className="container mt-4 mt-md-5" id='service-section'>
 
         <div className="text-center mb-3 mb-sm-4 mb-md-5">
           <h2 className="display-6 fw-bold text-dark mb-3">Our Medical Services</h2>

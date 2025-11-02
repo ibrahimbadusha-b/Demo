@@ -128,7 +128,7 @@ const CustomerTestimonials = () => {
     );
 
     return (
-        <section className="mb-5" id="testimonials-section">
+        <section className="mb-4 mb-md-5" id="testimonials-section">
             <div className="container">
                 <div className="row mb-2">
                     <div className="col-12 text-center">
@@ -288,7 +288,7 @@ const CustomerTestimonials = () => {
                     </div>
                 </div>
 
-                <div className="row mt-5 mt-md-4 mt-lg-5">
+                <div className="row mt-4 mt-md-4 mt-lg-5">
                     <div className="col-12">
                         <div className="text-white rounded-4 p-4 mx-auto text-center" style={{ 
                             background: "linear-gradient(135deg, #ee0d0d, #b60505)", 
