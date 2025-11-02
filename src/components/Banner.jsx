@@ -20,7 +20,7 @@ const Banner = () => {
               {/* <h2 className="fw-bold fs-2 lh-sm mb-2 text-dark">
                 Where Little Patients<br /> Get Big Care
               </h2> */}
-              <p className="fs-4 fw-semibold text-secondary mb-4">
+              <p className="fs-4 fw-semibold mb-4" style={{ color:"#242020ff" }}>
                 Expert Pediatricians Dedicated to Your Child’s Health and Wellness
               </p>
               <a className="btn btn-sm text-white rounded-pill px-3 shadow-sm" href='#Appointment-Form' style={{ background: 'linear-gradient(135deg, #ee0d0d, #b60505)' }}>
